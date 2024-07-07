@@ -1,0 +1,185 @@
+https://routeegy.github.io/Devfolio/
+foucs bootstrap
+html
+  <nav class="navbar navbar-expand-lg bg-black fixed-top" data-bs-theme="dark">
+    <div class="container ">
+      <a class="navbar-brand" href="#">DevFolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto ">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">SERVICES
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Drop Down 1</a></li>
+              <li><a class="dropdown-item" href="#">Deep Drop Down</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Drop Down 2</a></li>
+              <li><a class="dropdown-item" href="#">Drop Down 3</a></li>
+              <li><a class="dropdown-item" href="#">Drop Down 4</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="header min-vh-100">
+    <div class="over-layer vh-100">
+      <div
+        class="content d-flex flex-column justify-content-center align-items-center h-100 text-center text-white fs-1">
+        <p>I am Morgan Freeman</p>
+        <p>Designer|Developer|Freelancer|Photographer|</p>
+      </div>
+    </div>
+
+  </div>
+<!-- about -->
+  <div class="about p-5" id="About">
+    <div class="container">
+      <div class="box-shadow-full">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-sm-6 col-md-5">
+                <div class="about-img"><img src="./images/testimonial-2.jpg" alt=""></div>
+              </div>
+              <div class="col-sm-6 col-md-7">
+                <div class="about-info">
+                  <ul>
+                    <li class="d-flex">
+                      <span class="fw-bold">Name:</span>
+                      <p class="px-2">Morgan Freeman</p>
+                    </li>
+                    <li class="d-flex">
+                      <span class="fw-bold">Profile:</span>
+                      <p class="px-2">full stack developer</p>
+                    </li>
+                    <li class="d-flex">
+                      <span class="fw-bold">Email: </span>
+                      <p class="px-2">contact@example.com</p>
+                    </li>
+                    <li class="d-flex">
+                      <span class="fw-bold">Phone: </span>
+                      <p class="px-2">(617) 557-0089</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <h3>skill</h3>
+              <p>HTML 85%</p>
+              <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="85" aria-valuemin="0"
+                aria-valuemax="100">
+                <div class="progress-bar" style="width: 85%"></div>
+              </div>
+              <h3>skill</h3>
+              <p>CSS3 75%</p>
+              <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0"
+                aria-valuemax="100">
+                <div class="progress-bar w-75"></div>
+              </div>
+              <h3>skill</h3>
+              <p>PHP 50%</p>
+              <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0"
+                aria-valuemax="100">
+                <div class="progress-bar" style="width: 50%"></div>
+              </div>
+              <h3>skill</h3>
+              <p>JAVASCRIPT 90%</p>
+              <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0"
+                aria-valuemax="100">
+                <div class="progress-bar w-75"></div>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="about-me">
+              <div class="title">
+                <h3>About me</h3>
+              </div>
+              <p class="p-2 fs-5 mb-2 ">Curabitur non nulla sit amet nisl tempus convallis quis ac <br> lectus.
+                Curabitur arcu erat, accumsan id
+                imperdiet et, <br> porttitor at sem. Praesent sapien massa, convallis a <br> pellentesque nec, egestas
+                non nisi.
+                Nulla porttitor <br> accumsan tincidunt.</p>
+              <p class="p-2 fs-5">Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. <br> Vivamus suscipit
+                tortor eget felis porttitor
+                volutpat. <br> Vestibulum ac diam sit amet quam vehicula elementum sed <br>sit amet dui. porttitor at
+                sem.</p>
+              <p class="p-2 fs-5">Nulla porttitor accumsan tincidunt. Quisque velit nisi, <br> pretium ut lacinia in,
+                elementum id enim. Nulla
+                porttitor <br>accumsan tincidunt. Mauris blandit aliquet elit, <br> eget tincidunt nibh pulvinar a.</p>
+
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+css
+body
+{
+    background-color: #f5f5f5;
+}
+*
+{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0;
+}
+:root {
+    --main-color: #ff206e;
+}
+/* scrol spy */
+.navbar-nav .nav-link.active {
+    color: var(--main-color);
+    position: relative;
+}
+/* home style */
+div.header
+{
+    background-image: url(../images/hero-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment:fixed;
+}
+div.header div.over-layer
+{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* about */
+.box-shadow-full {
+    padding: 3rem 1.25rem;
+    background-color: #fff;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}

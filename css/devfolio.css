@@ -1,0 +1,603 @@
+body
+{
+    background-color: #f5f5f5;
+}
+.navbar-collapse 
+{
+    justify-content: end;
+}
+.navbar-brand
+{
+    font-size: 28px ;
+    font-weight: 600;
+}
+.navbar-nav .nav-link.active
+{
+    border-bottom: 2px white solid;
+}
+.nav-item
+{
+    margin-left: 15px;
+    font-weight: 600;
+}
+.navbar-nav .nav-link:hover
+{
+    border-bottom: 2px white solid;
+}
+.dropdown-menu li {
+    position: relative;
+}
+.dropdown-menu .dropdown-submenu {
+    display: none;
+    position: absolute;
+    left: 120px;
+    top: 100%;
+}
+.dropdown-menu .dropdown-submenu-left {
+    right: 100%;
+    left: auto;
+}
+.dropdown-menu > li:hover > .dropdown-submenu {
+    display: block;
+}
+.dropdown ul li a:hover
+{
+color: #0062d3;
+}
+.home
+{
+    background-image:linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/hero-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.home h1
+{
+    font-size: 4.5rem;
+    position: relative;
+}
+.home h1::after
+{
+    position: absolute;
+    top: 130px;
+    left: 250px;
+    font-size: 2.5rem; 
+    content: "|";
+    animation-name: text;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes text
+{
+0%{ content: "";}
+10%{ content: "|";}
+20%{ content: "D|";}
+30%{ content: "De|";}
+40%{ content: "Des|";}
+50%{ content: "Desi|";}
+60%{ content: "Desig|";}
+70%{ content: "Design|";}
+80%{ content: "Designe|";}
+100%{ content: "Designer|";}
+}
+.html-85
+{
+    width: 85%;
+}
+.j-90
+{
+    width: 90%;
+}
+.about-box
+{
+    padding: 3rem;
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 3rem;
+    z-index: 2;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.about-img
+{
+    margin-bottom: 2rem;
+}
+.about-info p
+{
+    color: #4e4e4e;
+}
+.about-info span
+{
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 1.1rem;
+}
+.skill p
+{
+    color: #4e4e4e; 
+}
+.skill span
+{
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 1.1rem;
+}
+.title h5
+{
+    font-size: 2rem;
+    position: relative;
+    margin-bottom: 3rem;
+}
+.title h5::before
+{
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: -12px;  
+}
+.title p
+{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.services-title
+{
+    margin-bottom: 4rem;
+}
+.services-title h3
+{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #1e1e1e;
+}
+.services-title p
+{
+    color: #4e4e4e;
+}
+.line
+{
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+    margin: 0 auto;
+}
+.services-cards
+{
+    background-color: #fff;
+    padding: 2.5rem 1.3rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.services-ico
+{
+    margin-bottom: 1rem;
+    color: #1e1e1e;
+}
+.services-ico
+{
+    margin-inline: auto;
+    border: #0078ff 10px solid;
+    width: fit-content;
+    padding: 30px;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+.services-cards:hover .services-ico
+{
+    background-color: #0078ff;
+    border: #a5cefd 10px solid;
+    color: #fff;
+}
+.ico-circle i
+{
+    font-size: 40px;
+}
+.services-content h2
+{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0.4rem 0;
+}
+.services-content p
+{
+    color: #4e4e4e;  
+}
+.analysis
+{
+    padding: 8rem 0;
+    background-image:linear-gradient(to right, #0077ff97, #0077ff97 ), url(../images/post-3.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.circle
+{
+    border: #ffffff 8px solid;
+    padding: 10px 15px;
+    border-radius: 50%;
+    width: fit-content;
+    margin-inline: auto;
+    margin-bottom: 20px;
+}
+.circle2
+{
+    border: #ffffff 8px solid;
+    padding: 10px 10px;
+    border-radius: 50%;
+    width: fit-content;
+    margin-inline: auto;
+    margin-bottom: 20px;
+}
+.circle i
+{
+    font-size: 30px; 
+}
+.circle2 i
+{
+    font-size: 30px; 
+}
+.portfolio-title
+{
+    margin-block: 4rem;
+}
+.portfolio-title h3
+{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #1e1e1e;
+}
+.portfolio-title p
+{
+    color: #4e4e4e;
+}
+.portfolio-cards
+{
+    margin-bottom: 3rem;
+    background-color: #fff;
+    overflow: hidden;
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+.img
+{
+    transition: transform 0.5s ease-in-out;
+}
+.portfolio-cards:hover .img
+{
+ transform: scale(130%);
+}
+.photo
+{
+    overflow: hidden;
+}
+.portfolio-cards-content
+{
+    padding: 2rem 3% 1rem 4%;
+}
+.portfolio-cards-content h2
+{
+    font-size: 1.2rem;
+    color: #1e1e1e;
+}
+.portfolio-cards-content p
+{
+    color: #4e4e4e;
+    font-size: 0.8rem;
+}
+.portfolio-cards-content span
+{
+    color: #0078ff;
+}
+.circle1
+{
+    float: right;
+    font-size: 1.2rem;
+    color: #0078ff;
+    border: #0078ff solid 2px;
+    border-radius: 50%;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+.clr
+{
+    clear: both;
+}
+.carousel
+{
+    padding: 5rem 0;
+    background-image:linear-gradient(to right, #0077ff97, #0077ff97 ), url(../images/overlay-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.carousel-indicators button
+{
+    width: 13px !important;
+    height: 13px !important;
+    border-radius: 50%;
+}
+.carousel-item p
+{
+    max-width: 560px;
+    margin-inline: auto;
+    font-size: 18px;
+}
+.blog-title
+{
+    margin-block: 4rem;
+}
+.blog-title h3
+{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #1e1e1e;
+}
+.blog-title p
+{
+    color: #4e4e4e;
+}
+.blog-card
+{
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+.blog-card-photo
+{
+    position: relative;
+    margin-bottom: 30px;
+}
+.blog-card h6
+{
+    background-color: #0078ff;
+    width: fit-content;
+    margin: auto;
+    padding: 5px 10px;
+    border-radius: 4%;
+    color: #fff;
+    position: absolute;
+    bottom: -16px;
+    left: 15px;
+    right: 15px;
+}
+.blog-card h3
+{
+    font-size: 1.3rem;
+}
+.card-footer img
+{
+    width: 32px;
+    height: 32px;
+    margin-right: 4px;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+.card-footer p
+{
+    display: inline-block;
+    transition: color 0.5s ease;
+    cursor: pointer;
+}
+.card-footer p:hover
+{
+    color: #0078ff;
+}
+.ico
+{
+    color: #4e4e4e;
+    float: right;
+}
+#blog
+{
+    margin-bottom: 100px;
+}
+.contact
+{
+    padding: 4rem 0 0 0;
+    margin-top: 4rem;
+    background-image:linear-gradient(to right, #0077ff97, #0077ff97 ), url(../images/overlay-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.contact-area
+{
+    padding: 3rem 1.25rem;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+}
+.contact-title
+{
+    margin-bottom: 3rem;
+}
+.contact-title h5
+{
+    font-size: 2rem;
+    position: relative;
+    margin-bottom: 3rem;
+}
+.contact-title h5::before
+{
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: -12px;  
+}
+.contact-title input
+{
+    padding: 10px 15px;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+}
+.contact-title button
+{
+    background: #0078ff;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+}
+.contact-title button:hover
+{
+    background-color: #3090fe;
+    box-shadow: 0 0 0 3px #a1ccfd;
+}
+.contact-title p
+{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.list-ico
+{
+    line-height: 2;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.list-ico i
+{
+    color: #0078ff;
+    margin-right: 10px;
+}
+.socials
+{
+    padding: 1.5rem 0;
+}
+.socials ul
+{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.socials ul li
+{
+    display: inline-block;
+}
+.socials ul li a
+{
+    color: #1e1e1e;
+    text-decoration: none;
+}
+.socials ul li a i
+{
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    line-height: 1.6;
+    margin: 0 15px 0 0;
+    box-shadow: 0 0 0 3px #0078ff;
+    transition: all 500ms ease;
+}
+.socials ul li a i:hover
+{
+    color: #fff;
+    background-color: #0078ff;
+    box-shadow: 0 0 0 3px #a1ccfd;
+}
+footer
+{
+    text-align: center;
+    color: #fff;
+    padding: 25px 0;
+    background: #0062d3;
+}
+.footer-content
+{
+    margin-bottom: 0.3rem;
+}
+.footer-content p
+{
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+.footer-content span
+{
+    font-weight: 700;
+}
+.arrow
+{
+    position: relative;
+    bottom: 0;
+    right: 0;
+}
+.back-to-top 
+{
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    z-index: 996;
+    background: #0078ff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    transition: all 0.4s;
+    text-decoration: none;
+    color: #fff;
+}
+.back-to-top:hover
+{
+    background: #3290fc;
+}
+@media screen and (max-width: 991px) {
+    .navbar-nav
+    {
+        background-color: #fff;
+    }
+    .navbar-nav a
+    {
+        color: black !important;
+    }
+    .navbar-nav a:hover
+    {
+        color: #0062d3 !important;
+    }
+    .navbar i
+    {
+        color: #fff !important;
+    }
+    .navbar-nav .nav-link.active
+    {
+    border-bottom: 0px white solid;
+    color: #0062d3 !important;
+    }
+    .navbar-nav .nav-link:hover
+    {
+    border-bottom: 0px white solid;
+    }
+}
+@media screen and (max-width: 739px) {
+    .home h1
+    {
+        font-size: 3.5rem;
+    }
+    .home h1::after
+    {
+        top: 170px;
+    }
+}
+@media screen and (max-width: 718px) {
+    .home h1::after
+    {
+      left: 160px;  
+    }
+}
+@media screen and (min-width: 768px){
+    .contact-area
+    {
+    padding: 3rem;
+    }
+}
+    
